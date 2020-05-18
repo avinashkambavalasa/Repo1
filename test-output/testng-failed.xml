@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression suite]" guice-stage="DEVELOPMENT">
+  <test name="Zero bank e2e test(failed)">
+    <classes>
+      <class name="ZBBasics.ZBTestCases">
+        <methods>
+          <include name="transferFunds" invocation-numbers="2"/>
+          <include name="addNewPayee" invocation-numbers="0 1"/>
+          <include name="setUp"/>
+          <include name="findTransaction" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="billPayment" invocation-numbers="0 1 2"/>
+          <include name="purchaseCurrency" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- ZBBasics.ZBTestCases -->
+    </classes>
+  </test> <!-- Zero bank e2e test(failed) -->
+</suite> <!-- Failed suite [Regression suite] -->

@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-05-15T20:55:40Z" name="Regression suite" finished-at="2020-05-15T20:56:56Z" duration-ms="75889">
+  <suite started-at="2020-05-18T20:20:21Z" name="Regression suite" finished-at="2020-05-18T20:21:05Z" duration-ms="43255">
     <groups>
     </groups>
-    <test started-at="2020-05-15T20:55:40Z" name="Zero bank e2e test" finished-at="2020-05-15T20:56:56Z" duration-ms="75889">
+    <test started-at="2020-05-18T20:20:21Z" name="Zero bank e2e test" finished-at="2020-05-18T20:21:05Z" duration-ms="43255">
       <class name="ZBBasics.ZBTestCases">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:ZBBasics.ZBTestCases@46f699d5]" started-at="2020-05-15T16:55:40Z" name="setUp" finished-at="2020-05-15T16:55:51Z" duration-ms="10837" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ZBBasics.ZBTestCases@46f699d5]" started-at="2020-05-18T16:20:21Z" name="setUp" finished-at="2020-05-18T16:20:26Z" duration-ms="4845" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="transferFunds(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:ZBBasics.ZBTestCases@46f699d5]" started-at="2020-05-15T16:55:57Z" name="transferFunds" data-provider="getTFTestData" finished-at="2020-05-15T16:56:03Z" duration-ms="6365" status="PASS">
+        <test-method signature="transferFunds(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:ZBBasics.ZBTestCases@46f699d5]" started-at="2020-05-18T16:20:36Z" name="transferFunds" data-provider="getTFTestData" finished-at="2020-05-18T16:20:39Z" duration-ms="3228" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- transferFunds -->
-        <test-method signature="transferFunds(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:ZBBasics.ZBTestCases@46f699d5]" started-at="2020-05-15T16:56:03Z" name="transferFunds" data-provider="getTFTestData" finished-at="2020-05-15T16:56:08Z" duration-ms="4169" status="PASS">
+        <test-method signature="transferFunds(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:ZBBasics.ZBTestCases@46f699d5]" started-at="2020-05-18T16:20:39Z" name="transferFunds" data-provider="getTFTestData" finished-at="2020-05-18T16:20:42Z" duration-ms="2321" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,7 +63,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- transferFunds -->
-        <test-method signature="transferFunds(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:ZBBasics.ZBTestCases@46f699d5]" started-at="2020-05-15T16:56:08Z" name="transferFunds" data-provider="getTFTestData" finished-at="2020-05-15T16:56:14Z" duration-ms="6447" status="PASS">
+        <test-method signature="transferFunds(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:ZBBasics.ZBTestCases@46f699d5]" started-at="2020-05-18T16:20:42Z" name="transferFunds" data-provider="getTFTestData" finished-at="2020-05-18T16:20:44Z" duration-ms="2347" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -89,7 +89,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- transferFunds -->
-        <test-method signature="billPayment(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:ZBBasics.ZBTestCases@46f699d5]" started-at="2020-05-15T16:56:14Z" name="billPayment" data-provider="getPBTestData" finished-at="2020-05-15T16:56:18Z" duration-ms="3964" status="PASS">
+        <test-method signature="billPayment(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:ZBBasics.ZBTestCases@46f699d5]" started-at="2020-05-18T16:20:44Z" name="billPayment" data-provider="getPBTestData" finished-at="2020-05-18T16:20:47Z" duration-ms="2631" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -120,7 +120,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- billPayment -->
-        <test-method signature="billPayment(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:ZBBasics.ZBTestCases@46f699d5]" started-at="2020-05-15T16:56:18Z" name="billPayment" data-provider="getPBTestData" finished-at="2020-05-15T16:56:21Z" duration-ms="3150" status="PASS">
+        <test-method signature="billPayment(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:ZBBasics.ZBTestCases@46f699d5]" started-at="2020-05-18T16:20:47Z" name="billPayment" data-provider="getPBTestData" finished-at="2020-05-18T16:20:49Z" duration-ms="1921" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -151,7 +151,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- billPayment -->
-        <test-method signature="billPayment(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:ZBBasics.ZBTestCases@46f699d5]" started-at="2020-05-15T16:56:21Z" name="billPayment" data-provider="getPBTestData" finished-at="2020-05-15T16:56:24Z" duration-ms="2243" status="PASS">
+        <test-method signature="billPayment(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:ZBBasics.ZBTestCases@46f699d5]" started-at="2020-05-18T16:20:49Z" name="billPayment" data-provider="getPBTestData" finished-at="2020-05-18T16:20:51Z" duration-ms="2434" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -182,7 +182,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- billPayment -->
-        <test-method signature="addNewPayee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:ZBBasics.ZBTestCases@46f699d5]" started-at="2020-05-15T16:56:24Z" name="addNewPayee" data-provider="getANPTestData" finished-at="2020-05-15T16:56:27Z" duration-ms="3406" status="PASS">
+        <test-method signature="addNewPayee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:ZBBasics.ZBTestCases@46f699d5]" started-at="2020-05-18T16:20:51Z" name="addNewPayee" data-provider="getANPTestData" finished-at="2020-05-18T16:20:54Z" duration-ms="2561" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -210,7 +210,7 @@ H4R 1Z6]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewPayee -->
-        <test-method signature="addNewPayee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:ZBBasics.ZBTestCases@46f699d5]" started-at="2020-05-15T16:56:27Z" name="addNewPayee" data-provider="getANPTestData" finished-at="2020-05-15T16:56:29Z" duration-ms="2068" status="PASS">
+        <test-method signature="addNewPayee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:ZBBasics.ZBTestCases@46f699d5]" started-at="2020-05-18T16:20:54Z" name="addNewPayee" data-provider="getANPTestData" finished-at="2020-05-18T16:20:56Z" duration-ms="2283" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -238,7 +238,7 @@ H2K 2R7]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewPayee -->
-        <test-method signature="purchaseCurrency(java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:ZBBasics.ZBTestCases@46f699d5]" started-at="2020-05-15T16:56:29Z" name="purchaseCurrency" data-provider="getPFCTestData" finished-at="2020-05-15T16:56:32Z" duration-ms="2210" status="PASS">
+        <test-method signature="purchaseCurrency(java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:ZBBasics.ZBTestCases@46f699d5]" started-at="2020-05-18T16:20:56Z" name="purchaseCurrency" data-provider="getPFCTestData" finished-at="2020-05-18T16:20:58Z" duration-ms="2203" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -259,7 +259,7 @@ H2K 2R7]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- purchaseCurrency -->
-        <test-method signature="purchaseCurrency(java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:ZBBasics.ZBTestCases@46f699d5]" started-at="2020-05-15T16:56:32Z" name="purchaseCurrency" data-provider="getPFCTestData" finished-at="2020-05-15T16:56:40Z" duration-ms="8057" status="PASS">
+        <test-method signature="purchaseCurrency(java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:ZBBasics.ZBTestCases@46f699d5]" started-at="2020-05-18T16:20:58Z" name="purchaseCurrency" data-provider="getPFCTestData" finished-at="2020-05-18T16:21:00Z" duration-ms="1708" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -280,7 +280,7 @@ H2K 2R7]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- purchaseCurrency -->
-        <test-method signature="findTransaction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:ZBBasics.ZBTestCases@46f699d5]" started-at="2020-05-15T16:56:40Z" name="findTransaction" data-provider="getFTTestData" finished-at="2020-05-15T16:56:54Z" duration-ms="13765" status="PASS">
+        <test-method signature="findTransaction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:ZBBasics.ZBTestCases@46f699d5]" started-at="2020-05-18T16:21:00Z" name="findTransaction" data-provider="getFTTestData" finished-at="2020-05-18T16:21:03Z" duration-ms="2710" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -311,7 +311,7 @@ H2K 2R7]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findTransaction -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:ZBBasics.ZBTestCases@46f699d5]" started-at="2020-05-15T16:56:54Z" name="tearDown" finished-at="2020-05-15T16:56:56Z" duration-ms="2296" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ZBBasics.ZBTestCases@46f699d5]" started-at="2020-05-18T16:21:03Z" name="tearDown" finished-at="2020-05-18T16:21:05Z" duration-ms="1646" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
